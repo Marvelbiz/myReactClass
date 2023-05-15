@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.products img{
+    width: 100%;
+    height: 250px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    background-color: rgb(1, 16, 39);
+    text-align: center;
+    width: 28.33%;
+    margin: 10px;
+    color: aqua;
+    padding: 5px;
+}
+
+.product:hover{
+    transform: scale(1.1);
+    transition:0.3s;
+}
+
+.l-part{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    border-radius: 0 10px 0 10px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+    color: rgb(1, 16, 39);
+}

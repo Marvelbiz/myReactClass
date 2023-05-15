@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    border-bottom: 4px solid;
+}
+
+.imgfloat{
+    float: left;
+    width: 50%;
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}

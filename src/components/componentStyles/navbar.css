@@ -1,0 +1,32 @@
+.a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    border-bottom: 4px solid;
+    justify-content: center;
+}
+
+li{
+    font-family: 'Righteous';
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+}
+
+li::after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    background-color: black;
+    width: 0;
+    left: 0;
+    bottom: 20%;
+}
+
+li:hover::after{
+    width: 100%;
+    transition: 1s;
+}
